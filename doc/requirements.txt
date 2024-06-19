@@ -16,3 +16,4 @@ pykwalify
 
 # Used by pytest-twister-harness plugin
 pytest
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
