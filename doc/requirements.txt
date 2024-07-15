@@ -16,3 +16,4 @@ pykwalify
 
 # Used by pytest-twister-harness plugin
 pytest
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
