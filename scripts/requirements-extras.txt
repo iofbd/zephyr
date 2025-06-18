@@ -23,7 +23,7 @@ imgtool>=2.0.0
 
 # used by nanopb module to generate sources from .proto files
 grpcio-tools>=1.47.0
-protobuf>=3.20.3
+protobuf>=4.25.8
 
 # used by scripts/release/bug_bash.py for generating top ten bug squashers
 PyGithub
@@ -33,3 +33,4 @@ graphviz
 
 # used to generate CBOR encoders and decoders, e.g. lwm2m_senml_cbor.
 zcbor>=0.8.0
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
